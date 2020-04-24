@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabs {
+
+}
+
+.tabs_links {
+
+}
+
+.tabs_links_title {
+    text-decoration: none;
+    color: black;
+}
+
+.tabs_blocks {
+
+}
+
+.tabs_blocks_content {
+    display: none;
+    border: 2px solid black;
+}
+
+.visible {
+    display: block;
+}

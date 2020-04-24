@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/background.png);
+    font-family: 'Tahoma', sans-serif;
+    background-position: 0px -38px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.paper {
+    /* background-color: white; */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: white;
+    padding: 10px 27px 0px 27px;
+}
+
+.logo {
+    line-height: 1;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 285px;
+    height: 165px;
+    padding-top: 105px;
+
+}
+
+.travels {
+    font-size: 12px;
+    color: #128aa7;
+    text-align: center;
+}
+
+.menu {
+    background: linear-gradient(to top, #313131, #373737);
+    padding: 0px 60px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+    position: relative;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.sub_menu {
+    display: none;
+}
+
+.menu_item {
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 0px 5px 9px;
+}
+
+.menu_item:hover {
+    color: pink;
+}
+
+.menu_item:not(:last-child) {
+    padding-right: 53px;
+}
+
+.sub_menu_wrapper:after {
+    content: '\25BC';
+    font-size: 10px;
+}
+
+.sub_menu_wrapper:hover .sub_menu {
+    display: block;
+}
+
+.sub_menu_wrapper {
+    position: relative;
+}
+
+.sub_menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #303030;
+    min-width: 150px;
+}
+
+.sub_menu_item {
+    color: white;
+    font-size:  14px;
+    text-decoration: none;
+    line-height: 20px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.info {
+    float: left;
+    background-color: #edeef0;
+    width: 21%;
+    padding-bottom: 260px;
+    border-right: 1px solid #c7cacf;
+}
+
+.info_item {
+    font-size: 18px;
+    color: #424c43;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info_text {
+    font-size: 14px;
+    color: #424c43;
+    margin: 10px 21px 0px 13px;
+    line-height: 20px;
+}
+
+.news {
+    float: right;
+    background-color: #edeef0;
+    width: 21%;
+    border-left: 1px solid #c7cacf;
+}
+
+.news_item {
+    font-size: 18px;
+    color: #424c43;
+    font-weight: bold;
+    text-align: center;
+}
+
+.news_text {
+    font-size: 14px;
+    color: #424c43;
+    margin: 10px 21px 0px 13px;
+    line-height: 20px;
+}
+
+.paper_box {
+    background-color: white;
+}
+
+.copyright {
+    clear: both;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.emptiness {
+    float: left;
+    width: 58%;
+}

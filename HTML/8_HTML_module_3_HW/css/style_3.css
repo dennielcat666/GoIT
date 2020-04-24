@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eae5e5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.paper{
+    background-color: white;
+    margin: 3px auto;
+    box-shadow: black 0px 0px 3px 0px;
+    width: 1065px;
+}
+
+.logo {
+    width: 144px;
+    height: 40px;
+    margin: 52px 100px 20px 50px;
+}
+
+.top_menu {
+    font-size: 0px;
+    text-shadow: black 1px 1px 2px;
+}
+
+.home {
+    line-height: 1;
+    color: white;
+    background: linear-gradient(to bottom, #5e5e5e, #454444);
+    display: inline-block;
+    margin: 20px 0px 20px 50px;
+    border-right: 2px solid #838383;
+    padding: 12px 60px 13px 25px;
+    font-size: 15px;
+    width: 57px;
+}
+
+.goods {
+    line-height: 1;
+    color: white;
+    background: linear-gradient(to bottom, #4a4a4a, #2f2f2f);
+    margin: 20px 0px 20px 0px;
+    border-right: 2px solid #838383;
+    padding: 12px 23px 13px 23px;
+    display: inline-block;
+    width: 54px;
+    font-size: 15px;
+}
+
+.about {
+    line-height: 1;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    background: linear-gradient(to bottom, #5e5e5e, #454444);
+    padding: 12px 62px 13px 62px;
+    display: inline-block;
+    width: 42px;
+    font-size: 15px;
+}
+
+.contacts {
+    line-height: 1;
+    color: white;
+    margin: 20px 45px 0px 0px;
+    background: linear-gradient(to bottom, #5e5e5e, #454444);
+    padding: 12px 462px 13px 25px;
+    display: inline-block;
+    width: 66px;
+    font-size: 15px;
+}
+
+.left_menu {
+    display: inline-block;
+    width: 238px;
+    margin: 0px 0px 20px 50px;
+    list-style: none;
+    float: left;
+}
+.note {
+    color: #656363;
+    padding: 16px 22px 16px 22px;
+    font-size: 13px;
+    border: 2px solid #c8c8c8;
+}
+
+.note:not(:last-child) {
+    border-bottom: 0;
+}
+
+.active {
+    background-color: #f9f9f9;
+    color: black;
+    padding-left: 34px;
+}
+
+.bike_box {
+    padding: 45px 88px;
+    box-sizing: border-box;
+    border: 2px solid #c8c8c8;
+}
+
+.bike {
+    height: 305px;
+    width: 500px;
+}
+
+.lorem {
+    padding: 0px 25px;
+    margin-top: 40px;
+    margin-bottom: 63px;
+}
+
+.content {
+    display: inline-block;
+    width: 678px;
+    margin-left: 45px;
+}
+
+.bottom_menu {
+    font-size: 0;
+    padding-bottom: 60px;
+}
+
+.home_bottom {
+    display: inline-block;
+    font-size: 13px;
+    padding: 12px 47px 13px 25px;
+    margin-left: 50px;
+    background-color: #e1e1e1;
+}
+
+.goods_bottom {
+    display: inline-block;
+    font-size: 13px;
+    padding: 12px 47px 13px 47px;
+    background-color: #e1e1e1;
+    text-decoration: underline;
+}
+
+.about_bottom {
+    display: inline-block;
+    font-size: 13px;
+    padding: 12px 47px 13px 47px;
+    background-color: #e1e1e1;
+}
+
+.contacts_bottom {
+    display: inline-block;
+    font-size: 13px;
+    padding: 12px 141px 13px 47px;
+    background-color: #e1e1e1;
+}
+
+.rights_bottom {
+    display: inline-block;
+    font-size: 13px;
+    padding: 12px 26px 13px 141px;
+    background-color: #e1e1e1;
+}

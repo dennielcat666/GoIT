@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.paper {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Tahoma', sans-serif;
+    margin: auto;
+    max-width: 975px;
+    min-width: 965px;
+    padding: 53px 68px 29px 68px;
+    box-sizing: border-box;
+    background-size: contain;
+    background-position: center;
+}
+
+.logo {
+    display: inline-block;
+    width: 263px;
+    height: 146px;
+    background-image: url(../img/palm.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 0px;
+}
+
+.asia {
+    margin: 80px 0px 0px 0px;
+}
+
+.travels {
+    color: white;
+    font-size: 10.16px;
+    padding: 0px 73px 18px 84px;
+}
+
+.info {
+    color: white;
+    display: inline-block;
+    margin: 0px 0px 0px 395px;
+}
+
+.contact {
+    font-size: 10.16px;
+}
+
+.number {
+    font-size: 8.47px;
+}
+
+.email {
+    font-size: 8.47px;
+}
+
+.item {
+    display: inline-block;
+    font-size: 15.24px;
+    box-sizing: border-box;
+}
+
+/* .item:not(:last-child) {
+    margin-right: 10px;
+} */
+
+.photo_box {
+    display: inline-block;
+    width: 264px;
+    margin: 0px 0px ;
+    padding: 8px 4px 4px 8px;
+    background-image: url(../img/ramka_india.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.text {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 10.16px;
+    margin: 140px 0px 0px 0px;
+    text-align: center;
+}

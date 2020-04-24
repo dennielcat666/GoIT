@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.paper {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Tahoma', sans-serif;
+    margin: auto;
+    max-width: 965px;
+    min-width: 965px;
+}
+
+.logo {
+    display: inline-block;
+    width: 263px;
+    height: 146px;
+    background-image: url(../img/palm.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 53px 0px 0px 72px;
+    padding-bottom: 0px;
+}
+
+.asia {
+    margin: 80px 0px 0px 0px;
+}
+
+.travels {
+    color: white;
+    font-size: 10.16px;
+    padding: 0px 73px 18px 84px;
+}
+
+.info {
+    color: white;
+    display: inline-block;
+    margin: 0px 0px 0px 450px;
+}
+
+.contact {
+    font-size: 10.16px;
+}
+
+.number {
+    font-size: 8.47px;
+}
+
+.email {
+    font-size: 8.47px;
+}
+
+.india {
+    display: inline-block;
+    font-size: 15.24px;
+}
+
+.india_ramka {
+    margin: 0px 10px 0px 60px;
+    background-image: url(../img/india.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.india_text {
+    margin: -7px 120px 43px 177px;
+}
+
+.nepal {
+    display: inline-block;
+    font-size: 15.24px;
+}
+
+.nepal_ramka {
+    background-image: url(../img/nepal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 10px 0px 0px;
+}
+
+.nepal_text {
+    margin: -7px 120px 43px 120px;
+}
+
+.tibet {
+    display: inline-block;
+    font-size: 15.24px;
+}
+
+.tibet_ramka {
+    background-image: url(../img/tibet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 60px 0px 0px;
+}
+
+.tibet_text {
+    margin: -7px 177px 43px 120px;
+}
+
+.bhutan {
+    display: inline-block;
+    font-size: 15.24px;
+}
+
+.bhutan_ramka {
+    margin: 0px 10px 0px 60px;
+    background-image: url(../img/bhutan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bhutan_text {
+    margin: -7px 120px 50px 165px;
+    padding-bottom: 5px;
+}
+
+.sri_lanka {
+    display: inline-block;
+    font-size: 15.24px;
+}
+
+.sri_lanka_ramka {
+    background-image: url(../img/sri-lanka.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 10px 0px 0px;
+}
+
+.sri_lanka_text {
+    margin: -7px 120px 0px 100px;
+}
+
+.maldives {
+    display: inline-block;
+    font-size: 15.24px;
+}
+
+.maldives_ramka {
+    background-image: url(../img/maldives.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 60px 0px 0px;
+}
+
+.maldives_text {
+    margin: -7px 160px 0px 110px;
+}
+
+.copyright {
+    font-size: 10.16px;
+    margin: 140px 386px 29px 400px;
+}

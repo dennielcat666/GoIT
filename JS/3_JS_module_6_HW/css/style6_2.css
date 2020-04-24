@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.common {
+    font-size: 60px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    }
+}
+
+.hour {
+    display: inline-block;
+    font-size: 60px;
+}
+
+.minute {
+    display: inline-block;
+    font-size: 60px;
+}
+
+.second {
+    display: inline-block;
+    font-size: 60px;
+}
+
+.common_button {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.hidden {
+    display: none;
+}
+
+.style {
+    margin-top: 20px;
+    width: 240px;
+    height: 70px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    background: linear-gradient(to top, #002aff, #00a8ff);
+}
+
+.start {
+    margin-right: 5px;
+    background: linear-gradient(to top, #0cbd14, #0ef519);
+}
+
+.pause {
+    margin-right: 5px;
+}
+
+.continue {
+    margin-right: 5px;
+}
+
+.split {
+
+}
+
+.stop {
+    
+}
+
+.reset {
+    margin-left: 10px;
+    background: linear-gradient(to top, #ff0000, #fd7777);
+}
+
+.split_container {
+    margin: 0 auto;
+    max-width: 500px;
+}

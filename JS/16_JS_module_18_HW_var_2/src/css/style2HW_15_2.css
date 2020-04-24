@@ -1,0 +1,19 @@
+.title {
+    font-size: 50px;
+    color: red;
+}
+
+.top {
+    font-size: 25px;
+    color: blue;
+}
+
+.middle {
+    font-size: 15px;
+    color: chartreuse;
+}
+
+.bottom {
+    font-size: 10px;
+    color: darkblue;
+}

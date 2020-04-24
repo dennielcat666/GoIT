@@ -1,0 +1,647 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.all {
+    width: 1000px;
+    margin: 0;
+}
+
+.phone {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #5e696d;
+    background-image: url(../img/handset.png);
+    background-repeat: no-repeat;
+    background-position: 5px 65%;
+    padding: 22px 15px 11px 30px;
+    margin: 0px 0px 0px 47px;
+    float: left;
+}
+
+.login {
+    float: left;
+    background: linear-gradient(to top, #0d3458, #1f6787);
+    padding: 3px 8px 3px 0px;
+    margin: 17px 0px 0px 14px;
+    border-radius: 3px;
+    box-shadow: 4px 5px 3px -2px rgba(0, 0, 0, 0.25);
+}
+
+.text_field {
+    float: left;
+    background-image: url(../img/little_man.png);
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+}
+
+.login_in {
+    width: 114px;
+    height: 15px;
+    margin-right: 3px;
+}
+
+.login_in:first-child {
+    margin-left: 25px;
+}
+
+.top_panel {
+    float: left;
+}
+
+.top {
+    color: white;
+    text-decoration: none;
+    padding: 0px 3px 0px 3px;
+    font-size: 11px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.entrance {
+    border-right: 1px solid white;
+}
+
+.forgot {
+    float: left;
+}
+
+.password {
+    color: #bfbfbf;
+    font-size: 12px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    padding: 0px 9px 0px 16px;
+}
+
+.banner_img {
+    margin: 0px 0px 0px 45px;
+}
+
+.middle_menu {
+    background: linear-gradient(to top, #030303, #4d5663);
+    height: 33px;
+    border-radius: 5px;
+    width: 910px;
+    margin-left: 45px;
+    margin-top: 2px;
+    padding-top: 3px;
+    padding-left: 125px;
+    box-shadow: 3px 4px 4px -1px rgba(0, 0, 0, 0.5);
+}
+
+.middle_panel {
+    float: left;
+    padding: 4px 0px 3px 11px;
+}
+
+.middle_panel:hover {
+    background: linear-gradient(to top, #0d3458, #25617b);
+    border-radius: 25px;
+}
+
+.middle_link {
+    color: #b1bcc0;
+    font-size: 14px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    text-decoration: none;
+    padding: 0px 12px 0px 6px;
+}
+
+.counter {
+    float: left;
+    font-size: 11px;
+    color: #929b9f;
+    font-family: 'Arial', sans-serif;
+}
+
+.product {
+    background-image: url(../img/truck.png);
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+    margin: 3px 0px 0px 54px;
+    padding: 3px 0px 0px 34px;
+}
+
+.sum {
+    padding: 0px 0px 0px 0px;
+    margin: 6px 0px 0px 16px;
+}
+
+.product:after {
+    content: '0';
+    color: #0d5a8f;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+}
+
+.sum:after {
+    content: '0,00 грн.';
+    color: #0d5a8f;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+    padding-left: 11px;
+}
+
+.search {
+    font-family: 'Arial', sans-serif;
+    margin: 11px 0px 0px 48px;
+}
+
+.search_box {
+    border: 1px solid #b8b8b9;
+    border-radius: 17px;
+    width: 416px;
+    float: left;
+    height: 134px;
+    box-shadow: 4px 5px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.car_box {
+    margin: 2px 15px 0px 0px;
+}
+
+.car_search {
+    font-size: 12px;
+    font-weight: bold;
+    color: #154467;
+    margin: 0px 0px 0px 127px;
+    letter-spacing: 1.17px;
+}
+
+.disks_form {
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    color: #154467;
+    width: 173px;
+    margin: 0px 20px 0px 19px;
+}
+
+.disks {
+    margin: -10px 0px 0px 4px;
+    letter-spacing: 1.1px;
+}
+
+.tires_form {
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    color: #154467;
+    width: 173px;
+    margin: 5px 8px 0px 11px;
+}
+
+.tires {
+    margin: -17px 0px 0px 127px;
+    letter-spacing: 1.1px;
+}
+
+.item_name {
+    float: left;
+    font-weight: normal;
+    color: black;
+    width: 72px;
+    margin: 9px 0px 0px 0px;
+    line-height: 7px;
+}
+
+.grayness {
+    color: #77858b;
+}
+
+.item_search {
+    float: left;
+    color: black;
+    width: 100px;
+    margin: 3px 0px 0px 1px;
+}
+
+.year {
+    width: 55px;
+}
+
+.tire_search {
+    font-size: 12px;
+    font-weight: bold;
+    color: #154467;
+    margin: 3px 0px 0px 10px;
+    letter-spacing: 1px;
+}
+
+.size_box {
+    width: 192px;
+    margin-right: 10px;
+}
+
+.slash {
+    color: black;
+    padding: 0px 0px 0px 5px;
+}
+
+.size {
+    float: left;
+    font-size: 10px;
+    margin: 13px 0px 0px 12px;
+}
+
+.size_r {
+    float: left;
+    font-size: 10px;
+    margin: 10px 0px 0px 43px;
+}
+
+.select_size_r {
+    margin: 5px 0px 0px 8px;
+    height: 18px;
+    width: 46px;
+    font-size: 11px;
+}
+
+.select_size {
+    float: left;
+    margin: 6px 0px 0px 10px;
+    width: 50px;
+    height: 17px;
+    font-size: 11px;
+}
+
+.select_size_two {
+    margin: 6px 0px 0px 0px;
+    width: 53px;
+    height: 17px;
+}
+
+.season {
+    float: left;
+    font-size: 10px;
+    margin: 4px 0px 0px 14px;
+}
+
+.select_season {
+    float: left;
+    font-size: 12px;
+    margin: 3px 0px 0px 10px;
+}
+
+.disks_box {
+    width: 267px;
+}
+
+.disk_search {
+    font-size: 12px;
+    font-weight: bold;
+    color: #154467;
+    margin: 3px 0px 0px 9px;
+    letter-spacing: 1.8px;
+}
+
+.info_disks {
+    font-size: 10px;
+    width: 173px;
+    float: left;
+}
+
+.select_value {
+    float: left;
+    width: 73px;
+    margin: 7px 0px 0px 17px;
+    line-height: 9px;
+}
+
+.dimentr {
+    margin: 7px 0px 0px 17px; 
+}
+
+.kolvo {
+    margin: 2px 0px 0px 15px;
+}
+
+.dimentr_tow {
+    margin: 1px 0px 0px 17px;
+}
+
+.value {
+    float: left;
+    font-size: 11px;
+}
+
+.four {
+    margin: 4px 0px 0px 16px;
+    width: 57px;
+    height: 18px;
+}
+
+.five {
+    margin: 13px 0px 0px 18px;
+    height: 18px;
+    width: 50px;
+}
+
+.six {
+    margin: 13px 0px 0px 16px;
+    width: 59px;
+}
+
+.info_diameter {
+    font-size: 10px;
+    float: left;
+    width: 90px;
+    border-left: 1px solid #bdc6ca;
+}
+
+.dtco {
+    margin: -12px 0px 0px 12px;
+    line-height: 13px;
+}
+
+.select_dtco {
+    margin: 0px 0px 0px 14px;
+    height: 16px;
+    font-size: 11px;
+    width: 57px;
+}
+
+.select_disc_out {
+    margin: 0px 0px 0px 13px;
+    height: 17px;
+    width: 58px;
+    font-size: 11px;
+}
+
+.disc_out {
+    margin: 6px 0px 0px 12px;
+}
+
+.find_box {
+    float: right;
+}
+
+.one {
+    margin: 4px 21px 0px 0px;
+}
+
+.two {
+    margin: -7px 20px 0px 0px;
+}
+
+.three {
+    margin: 3px 18px 0px 0px;
+}
+
+.find {
+    font-size: 14px;
+    color: #154467;
+    font-style: italic;
+}
+
+.product_catalog {
+    float: left;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: #114165;
+    margin: 19px 0px 0px 43px;
+}
+
+.catalog {
+    font-size: 13px;
+    background-image: url(../img/icon_cat.png);
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+    padding: 2px 0px 0px 28px;
+    width: 185px;
+    border: 1px solid #8b979c;
+    border-radius: 25px;
+    height: 25px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.catalog_item {
+    font-size: 13px;
+    border: 1px solid #8b979c;
+    border-radius: 25px;
+    height: 28px;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+.catalog_tire {
+    margin: 0px 0px 0px 3px;
+    padding: 5px 0px 0px 30px;
+}
+
+.catalog_disks {
+    margin: -4px 0px 0px 3px;
+    padding: 4px 0px 0px 29px;
+}
+
+.catalog_bolt {
+    margin: -5px 0px 0px 3px;
+    padding: 4px 0px 0px 29px;
+}
+
+.paragraph_item {
+    font-size: 12px;
+    color: #465961;
+    margin: 0px 0px 0px 55px;
+}
+
+.paragraph_choice:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #0c3256;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.paragraph_choice {
+    line-height: 26px;
+}
+
+.purchase {
+    float: left;
+    background: linear-gradient(to top, #93a7b0, #e5e7e8);
+    width: 525px;
+    margin: 15px 0px 0px 9px;
+    padding-bottom: 20px;
+}
+
+.sale_bottom {
+    margin-top: 4px;
+}
+
+.sale_info {
+    float: left;
+    margin: 0px 27px 5px 0px;
+}
+
+.sale_info:first-child {
+    margin-left: 22px;
+}
+
+.sale_name {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.firstname {
+    color: #206988;
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+    line-height: 1;
+}
+
+.lastname {
+    font-size: 12px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    line-height: 1;
+}
+
+.sale_picture {
+    padding: 5px 33px 3px 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #cfd4d6;
+}
+
+.sale_picture_thin {
+    padding: 5px 30px 3px 38px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #cfd4d6;
+}
+
+.sale_price {
+    font-family: 'Arial', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #114165;
+    font-style: italic;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.currency {
+    font-family: 'Arial', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    color: #114165;
+    font-style: italic;
+}
+
+.brand {
+    float: left;
+}
+
+.brand_name {
+    text-transform: uppercase;
+    background-image: url(../img/icon_cat.png);
+    background-repeat: no-repeat;
+    background-position: 2px 50%;
+    border: 1px solid #8b979c;
+    border-radius: 25px;
+    width: 181px;
+    height: 27px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: #114165;
+    font-size: 14px;
+    margin: 16px 0px 0px 10px;
+    padding: 2px 0px 0px 28px;
+}
+
+.brand_item {
+    text-transform: uppercase;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #114165;
+    width: 137px;
+    height: 28px;
+    border: 1px solid #79878d;
+    border-radius: 20px;
+}
+
+.brand_tire {
+    margin: 14px 0px 0px 23px;
+    padding: 5px 0px 0px 30px;
+}
+
+.brand_disks {
+    margin: 11px 0px 0px 23px;
+    padding: 5px 0px 0px 31px;
+}
+
+.brand_check{
+    color: #465961;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 13px;
+    margin: 5px 0px 0px 41px;
+}
+
+.brand_button {
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: white;
+    width: 80px;
+    height: 25px;
+    background: linear-gradient(to top, #0d3458, #1f6787);
+    border: 0;
+    border-radius: 25px;
+    margin: 19px 0px 0px 33px;
+}
+
+.label {
+    margin: 3px 0px 0px 153px;
+}
+
+.label_item {
+    float: left;
+    margin: 37px 0px 0px 12px;
+}
+
+.footer {
+    background-color: #213a4d;
+    width: 910px;
+    height: 100px;
+    border: 1px solid #242a3c;
+    margin: 19px 0px 0px 45px;
+}
+
+.footer_info {
+    margin: 6px 0px 0px 296px;
+}
+
+.footer_link {
+    float: left;
+    padding: 0px 14px 0px 12px;
+}
+
+.footer_link:not(:last-child) {
+    border-right: 1px solid white;
+}
+
+.footer_link_for {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_link_for:hover {
+    color: #52abcb;
+}
+
+.create {
+    color: #7f4740;
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
